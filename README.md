@@ -20,7 +20,7 @@ Morvox is a mobile application designed to help speechless individuals communica
 | E         | 0          |
 | ...       | ...        |
 
-[Click here to view the full Morse code table](Morse_Code_Table.md)
+[Click here to view the full Morse code table](README.md)
 
 ## Download
 
