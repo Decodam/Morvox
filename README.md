@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# Morvox
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Morvox is a mobile application designed to help speechless individuals communicate using Morse code. Morse code is a method used in telecommunication to encode text characters as sequences of two different signal durations, called dots and dashes or dits and dahs. Morvox simplifies the process of Morse code communication by providing an intuitive interface for entering and decoding Morse code messages.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Enter text or Morse code using the on-screen keyboard
+- Decode Morse code input into text
+- Speech synthesis to vocalize Morse code messages
+- Easy-to-use interface for smooth communication
 
-   ```bash
-   npm install
-   ```
+## Morse Code Table
 
-2. Start the app
+| Character | Morse Code |
+| --------- | ---------- |
+| A         | 01         |
+| B         | 1000       |
+| C         | 1010       |
+| D         | 100        |
+| E         | 0          |
+| ...       | ...        |
 
-   ```bash
-    npx expo start
-   ```
+[Click here to view the full Morse code table](Morse_Code_Table.md)
 
-In the output, you'll find options to open the app in a
+## Download
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+You can download the Morvox app from the [Distro folder](Distro/).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## About Morse Code
 
-## Get a fresh project
+Morse code is a method used in telecommunication to encode text characters as sequences of two different signal durations, called dots and dashes or dits and dahs. It was invented by Samuel Morse and Alfred Vail in the early 1830s. Morse code was widely used for early radio communication and is still used today in various applications, including amateur radio and aviation.
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+You can save this content in a file named `README.md` in the root directory of your project. Additionally, you'll need to create a `Morse_Code_Table.md` file containing the Morse code table and a `Distro` folder with the app distribution files. Adjust the content and links as needed based on your project structure and requirements.
